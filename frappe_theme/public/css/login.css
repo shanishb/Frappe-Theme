@@ -1,0 +1,27 @@
+:root{--ft-blue:#3056d3;--ft-blue-2:#4c6ef5;--ft-bg:#eef1f5;--ft-card:#ffffff;--ft-text:#0f172a;--ft-muted:#64748b;--ft-border:#e3e8f1}
+.ft-login{display:grid;grid-template-columns:1fr 1fr;gap:24px;min-height:100vh;padding:24px;background:#e9edf3}
+.ft-left{border-radius:16px;background:linear-gradient(135deg,var(--ft-blue),var(--ft-blue-2));display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.ft-hero{color:#fff;max-width:520px;padding:24px}
+.ft-hero h2{font-size:32px;line-height:1.2;margin:0 0 8px}
+.ft-hero p{font-size:14px;color:#e2e8f0;margin:0 0 24px}
+.ft-sample{width:90%;height:340px;border-radius:14px;background:rgba(255,255,255,.15);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.2)}
+.ft-right{display:flex;align-items:center;justify-content:center}
+.ft-card{width:100%;max-width:520px;border-radius:16px;background:var(--ft-card);box-shadow:0 8px 24px rgba(15,23,42,.08);padding:32px}
+.ft-card h3{margin:0 0 24px;font-size:24px;color:var(--ft-text)}
+#ft-login-form{display:flex;flex-direction:column;gap:12px}
+#ft-login-form label{font-size:12px;color:var(--ft-muted)}
+#ft-login-form input[type="email"],#ft-login-form input[type="password"]{height:44px;border:1px solid var(--ft-border);border-radius:8px;padding:0 12px;background:#fff}
+.ft-row{display:flex;gap:12px;align-items:center}
+.ft-row input{flex:1}
+.ft-link{font-size:12px;color:var(--ft-blue);text-decoration:none}
+.ft-remember{display:flex;gap:8px;align-items:center;margin:4px 0 8px}
+.ft-error{min-height:18px;color:#ef4444;font-size:12px}
+.ft-btn{height:44px;border:none;border-radius:10px;background:var(--ft-blue);color:#fff;font-weight:600;cursor:pointer}
+.ft-btn[disabled]{opacity:.7;cursor:not-allowed}
+.ft-sub{font-size:12px;color:var(--ft-muted)}
+.ft-sub a{color:var(--ft-blue);text-decoration:none}
+.ft-sep{display:flex;align-items:center;gap:12px;margin:8px 0}
+.ft-sep span{color:var(--ft-muted);font-size:12px}
+.ft-google{height:44px;border:1px solid var(--ft-border);border-radius:10px;background:#fff;color:var(--ft-text);display:flex;gap:8px;align-items:center;justify-content:center;text-decoration:none}
+.ft-g-icon{display:inline-flex;width:18px;height:18px;border-radius:50%;align-items:center;justify-content:center;background:#ea4335;color:#fff;font-size:12px}
+@media (max-width:960px){.ft-login{grid-template-columns:1fr}.ft-left{display:none}}

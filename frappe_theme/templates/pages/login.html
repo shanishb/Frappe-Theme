@@ -1,0 +1,37 @@
+<div class="ft-login">
+  <div class="ft-left">
+    <div class="ft-hero">
+      <h2>Designed for Individuals</h2>
+      <p>See the analytics and grow your data remotely, from anywhere.</p>
+      <div class="ft-sample"></div>
+    </div>
+  </div>
+  <div class="ft-right">
+    <div class="ft-card">
+      <h3>Login</h3>
+      <form id="ft-login-form">
+        <label>Email address</label>
+        <input name="usr" type="email" placeholder="name@mail.com" required />
+        <label>Password</label>
+        <div class="ft-row">
+          <input name="pwd" type="password" placeholder="************" required />
+          <a class="ft-link" href="/update-password">Reset Password</a>
+        </div>
+        <div class="ft-remember">
+          <input id="remember" type="checkbox" />
+          <label for="remember">Remember Password</label>
+        </div>
+        <div id="ft-login-error" class="ft-error"></div>
+        <button type="submit" class="ft-btn">Login</button>
+        <div class="ft-sub">
+          <span>Don't have an account? <a href="/signup">Sign up</a></span>
+        </div>
+        <div class="ft-sep"><span>or</span></div>
+        <a class="ft-google" href="/login?provider=google">
+          <span class="ft-g-icon">G</span>
+          Authorize with Google
+        </a>
+      </form>
+    </div>
+  </div>
+</div>
